@@ -3,8 +3,8 @@ public class PongPaddle {
     public PongPaddle(int top, int left, int w, int h){
         y = top;
         x = left;
-        w = width;
-        h = height;
+        width = w;
+        height = h;
     }
     public int getBottomY(){
         return(height + y) - 1;
